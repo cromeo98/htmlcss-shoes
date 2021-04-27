@@ -3,3 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* link buttons */
+.button{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: fixed;
+    top: 50px;
+}
+
+#button1{
+    right: 225px;
+}
+
+#button2{
+    right: 150px;
+}
+
+#button3{
+    right: 75px;
+}
+
+/* debug */
+.debug .button{
+    background-color: blue;
+}
