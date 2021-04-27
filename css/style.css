@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
 }
 
 /* button section */
@@ -14,7 +15,7 @@
     text-align: center;
     line-height: 50px;
     border-radius: 50%;
-    background-color: blue;
+    background-color: white;
     text-decoration: none;
     color: black;
     position: fixed;
@@ -54,7 +55,6 @@ section{
     text-align: center;
     width: 80%;
     margin: auto;
-    font-weight: 800;
 }
 
 img{
