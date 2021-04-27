@@ -25,7 +25,20 @@
     right: 75px;
 }
 
+
+/* shoes section */
+.shoes-box{
+    height: 100vh;
+}
+
+
+
 /* debug */
 .debug .button{
     background-color: blue;
+}
+
+.debug .shoes-box{
+    background-color: coral;
+    border: 2px solid black;
 }
