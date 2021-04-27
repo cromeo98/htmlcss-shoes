@@ -7,7 +7,6 @@
 }
 
 /* button section */
-
 .button{
     display: inline-block;
     height: 50px;
@@ -54,7 +53,7 @@ section{
 }
 
 .text{
-    font-size: 65px;
+    font-size: 40px;
     text-transform: uppercase;
     text-align: center;
     width: 80%;
@@ -78,6 +77,44 @@ img{
 #shoes-3{
     background-color: #ffff00;
     color: #008000;
+}
+/* bonus */
+.layover{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.layover::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.back-img, .back-text{
+    float: left;
+}
+
+aside{
+    width: 25%;
+}
+
+.back-text{
+    width: 50%;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: rgba(0,0,0,0.5) 2px 2px;
+}
+
+.layover-container:hover .img-text-container{
+    display: none;
+}
+
+.layover-container:hover .layover{
+    display: block;
 }
 
 /* debug */
