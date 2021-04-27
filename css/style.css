@@ -3,3 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* button section */
+
+.button{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    background-color: blue;
+    text-decoration: none;
+    color: black;
+    position: fixed;
+    top: 50px;
+}
+
+#button1{
+    right: 175px;
+}
+
+#button2{
+    right: 100px;
+}
+
+#button3{
+    right: 25px;
+}
