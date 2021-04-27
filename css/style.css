@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 /* button section */
@@ -47,7 +48,35 @@ section{
     transform: translate(-50%, -50%);
 }
 
-/* debug */
-.debug section{
-    background-color: blueviolet;
+.text{
+    font-size: 65px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    font-weight: 800;
 }
+
+img{
+    width: 100%;
+}
+
+#shoes-1{
+    background-color: #ff0000;
+    color: #ffff00;
+}
+
+#shoes-2{
+    background-color: #008000;
+    color: #ffff00;
+}
+
+#shoes-3{
+    background-color: #ffff00;
+    color: #008000;
+}
+
+/* debug */
+/* .debug section{
+    background-color: blueviolet;
+} */
