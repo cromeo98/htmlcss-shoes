@@ -35,6 +35,10 @@
     right: 25px;
 }
 
+.button:hover{
+    box-shadow: rgba(0,0,0,0.5) 5px 5px;
+}
+
 /* shoes sections */
 section{
     height: 100vh;
